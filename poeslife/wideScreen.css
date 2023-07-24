@@ -1,0 +1,196 @@
+* {
+	outline: none;
+}
+
+body {
+	background-color: #512753;
+	background-image: url('bg.gif');
+	background-repeat: repeat-x;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+#wrapper {
+	width: 700px;
+	height: auto;
+	margin: 0 auto;
+}
+#wrapper * {
+	text-align: left;
+}
+
+#header {
+	width: 700px;
+	height: 68px;
+}
+#header #BCLogo {
+	height: 39px;
+	max-height: 39px;
+	min-height: 39px;
+	padding-top: 10px;
+	padding-left: 10px;
+}
+#header #SchoolLogo {
+	height: 44px;
+	max-height: 44px;
+	min-height: 44px;
+	padding-left: 10px;
+}
+
+#content {
+	height: 550px;								/* Image height + 2 (borders) + 40 : (550) */
+	width: 670px;
+	padding-top: 15px;
+}
+#content div {
+	float: left;
+}
+
+#left {
+	width: 362px;								/* Image width */
+	height: 540px;
+	margin: 0  0 0 10px;
+	padding: 0;
+	border: 1px solid #cccccc;
+}
+
+img.main {
+	border: 1px solid #ffffff;
+}
+#right {
+	padding-left: 20px;
+	width: 260px;								/* Total width - left offset - 20 (left spacing) */
+}
+
+#controls {
+	position: relative;
+	margin: 20px 0 20px 0;
+	background: url("tan-left.gif") no-repeat #30a3b5 center left;  /* URL */
+	height: 22px;
+	width: 260px;
+	font: 10px/22px Verdana, Arial, sans-serif;
+}
+
+#page {
+	width: 120px;
+	text-align: center;
+	color: #000000;
+}
+
+#previous {
+	position: absolute;
+	top: 0;
+	right: 56px;	
+	width: 78px;
+}
+
+#next {
+	position: absolute;
+	top: 0;
+	right: 0px;	
+	width: 54px;
+}
+
+#caption {
+	margin: 0;
+	width: 260px;
+	height:500px;
+	font-family: Georgia, Times, serif;
+	font-style: normal;
+	color: #444444;
+	overflow:auto;
+}
+
+#caption p {
+	font:normal 13.3833px georgia,verdana,arial;
+	line-height: 1.3em;
+}
+/*color: #444444
+color: rgb(68, 68, 68)
+background-color: transparent
+
+Font
+===============================
+font-family (stack): georgia,verdana,arial
+Font being rendered: georgia
+font-size: 13.3833px
+
+Spacing
+===============================
+line-height: 1.3em (17.38px)*/
+
+h1 {
+	padding: 0 0 10px 0;
+	margin: 0 0 10px 0;
+	font-weight: normal;
+	font-size: 20px;
+	border-bottom: 1px solid #cccccc;
+	color: #333333;
+}
+
+
+p#poem {
+	margin: 0 0 6px 0;
+	font: 11px/13px Georgia, Times, serif !important;
+}
+
+p#number {
+	margin: 0 0 15px 0;
+	font-size: 12px;
+	font-variant: small-caps;
+}
+
+h2 {
+	font-weight:normal;
+	font-size: 18px;
+	margin: 0 0 10px 0;
+}
+
+h3 {
+	font:normal 12px/13px Georgia, Times, serif;
+	margin: 0 0 5px 0;
+}
+
+p.about {
+	font-size:10px;
+	line-height: 17.2px;
+	padding-left: 10px;
+}
+p#text {
+	font-size:13.3833px;
+	line-height: 1.3em;
+}
+p#translation {
+	font-size: 12px;
+	margin: 20px 0;
+}
+
+a, a:visited, a:link {
+	text-decoration: none;
+	color: #30a3b5;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+#previous {
+	display: block;
+	width: 78px;
+	height: 22px;	
+	background: url("previous.gif") no-repeat top;
+	margin-right: 5px;
+}
+#previous:active {
+	margin-top: 1px;
+}
+#next {
+	display: block;
+	width: 54px;
+	height: 22px;	
+	background: url("next.gif") no-repeat top;
+	margin-right: 0px;
+}
+#next:active {
+	margin-top: 1px;
+}
