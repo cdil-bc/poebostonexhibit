@@ -305,23 +305,3 @@ function AC_GetArgs(args, ext, srcParamName, classid, mimeType){
 
 
 }
-/*
-     FILE ARCHIVED ON 15:01:27 Jan 06, 2023 AND RETRIEVED FROM THE
-     INTERNET ARCHIVE ON 22:08:51 Jul 24, 2023.
-     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
-
-     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
-     SECTION 108(a)(3)).
-*/
-/*
-playback timings (ms):
-  captures_list: 1572.355
-  exclusion.robots: 0.109
-  exclusion.robots.policy: 0.097
-  cdx.remote: 0.083
-  esindex: 0.012
-  LoadShardBlock: 932.666 (3)
-  PetaboxLoader3.resolve: 982.519 (4)
-  PetaboxLoader3.datanode: 166.387 (4)
-  load_resource: 380.099
-*/
